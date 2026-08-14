@@ -3,9 +3,143 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hasgym Timer</title>
+  <meta name="description" content="HasGym Timer is a focused rest and interval timer for iPhone, with saved timers, workout history, custom sounds, haptics, and background alerts.">
+  <meta name="theme-color" content="#f7f8fa">
+  <meta property="og:title" content="HasGym Timer">
+  <meta property="og:description" content="Every set. Right on time.">
+  <meta property="og:image" content="assets/app-icon.png">
+  <title>HasGym Timer - Every set, right on time</title>
+  <link rel="icon" href="assets/app-icon.png">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Hasgym Timer</h1>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="HasGym Timer home">
+      <img src="assets/app-icon.png" alt="" width="44" height="44">
+      <span>HasGym Timer</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#support">Support</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow">Built for iPhone</p>
+        <h1>Every set.<br><span>Right on time.</span></h1>
+        <p class="hero-summary">A focused rest and interval timer that keeps your workout moving without getting in the way.</p>
+        <div class="hero-actions">
+          <span class="app-store-placeholder" aria-label="Coming soon to the App Store">
+            <small>Coming soon to the</small>
+            <strong>App Store</strong>
+          </span>
+          <a class="text-link" href="#features">Explore the app <span aria-hidden="true">&#8595;</span></a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="HasGym Timer running an active interval">
+        <div class="accent-orbit"></div>
+        <img class="phone-shot" src="assets/screenshots/interval-active.png" alt="Interval Timer counting down an active one-minute interval">
+      </div>
+    </section>
+
+    <section class="mode-section" id="features">
+      <div class="section-heading section-shell">
+        <p class="eyebrow">Two ways to train</p>
+        <h2>Simple when you need it.<br>Powerful when you want it.</h2>
+      </div>
+
+      <div class="mode-grid section-shell">
+        <article class="mode-card rest-card">
+          <div class="mode-copy">
+            <span class="number">01</span>
+            <h3>Rest Timer</h3>
+            <p>Set your rest period and total workout time. HasGym Timer tracks your sets and elapsed time while you focus on the next lift.</p>
+          </div>
+          <img src="assets/screenshots/rest-timer.png" alt="Rest Timer ready to begin a one-minute rest period" loading="lazy">
+        </article>
+
+        <article class="mode-card interval-card">
+          <div class="mode-copy">
+            <span class="number">02</span>
+            <h3>Interval Timer</h3>
+            <p>Alternate active and rest periods for circuits, conditioning, stretching, or any workout that follows your rhythm.</p>
+          </div>
+          <img src="assets/screenshots/interval-timer.png" alt="Interval Timer configured with one-minute active and rest periods" loading="lazy">
+        </article>
+      </div>
+    </section>
+
+    <section class="feature-strip section-shell" aria-label="App features">
+      <article>
+        <span class="feature-icon" aria-hidden="true">&#8635;</span>
+        <h3>Make it yours</h3>
+        <p>Fine-tune active, rest, and total workout times for the session ahead.</p>
+        <img src="assets/screenshots/edit-intervals.png" alt="Change Intervals controls for active and rest time" loading="lazy">
+      </article>
+      <article>
+        <span class="feature-icon" aria-hidden="true">&#9734;</span>
+        <h3>Save your go-to timers</h3>
+        <p>Keep favorite setups close and start recurring workouts without rebuilding them.</p>
+        <img src="assets/screenshots/saved-timers.png" alt="Timer Library with a saved interval timer" loading="lazy">
+      </article>
+      <article>
+        <span class="feature-icon" aria-hidden="true">&#8987;</span>
+        <h3>See the work</h3>
+        <p>Review recent sessions, completed sets, and elapsed time in your workout history.</p>
+        <img src="assets/screenshots/timer-history.png" alt="Timer Library showing recent workout history" loading="lazy">
+      </article>
+    </section>
+
+    <section class="alerts-section section-shell">
+      <div class="alerts-visual">
+        <img src="assets/screenshots/settings.png" alt="HasGym Timer settings for time, bell volume, sounds, and haptics" loading="lazy">
+      </div>
+      <div class="alerts-copy">
+        <p class="eyebrow">Train without watching the clock</p>
+        <h2>Hear it.<br>Feel it.<br>Keep moving.</h2>
+        <p>Choose your bell, volume, and haptic feedback. Background alerts help keep your timing on track when your phone is locked or another app is open.</p>
+        <ul>
+          <li>Custom bell sounds</li>
+          <li>Selectable haptic patterns</li>
+          <li>Background notifications</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="privacy-section" id="privacy">
+      <div class="section-shell privacy-layout">
+        <div>
+          <p class="eyebrow">Privacy by default</p>
+          <h2>Your workout<br>stays yours.</h2>
+        </div>
+        <div class="privacy-copy">
+          <p>HasGym Timer does not require an account and does not collect, sell, or share personal information. Your timer settings, saved timers, and workout history are stored locally on your device.</p>
+          <p>The app uses iOS notifications only to deliver timer alerts you request. It does not include advertising, analytics, or third-party tracking.</p>
+          <p class="effective-date">Privacy policy effective August 13, 2026.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="support-section section-shell" id="support">
+      <img src="assets/app-icon.png" alt="HasGym Timer dumbbell icon" width="120" height="120" loading="lazy">
+      <p class="eyebrow">Need a hand?</p>
+      <h2>We’re here to help.</h2>
+      <p>Questions, feedback, or trouble with HasGym Timer? Send us an email and include your iPhone model and iOS version when reporting an issue.</p>
+      <a class="email-button" href="mailto:hasgymdev@gmail.com">hasgymdev@gmail.com</a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell">
+    <span>&copy; 2026 HasGym</span>
+    <div>
+      <a href="#privacy">Privacy</a>
+      <a href="#support">Support</a>
+    </div>
+    <span>Made for focused training.</span>
+  </footer>
 </body>
 </html>
